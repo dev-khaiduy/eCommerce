@@ -1,9 +1,9 @@
 var config = {
-    apiKey: 'AIzaSyBlVcvm8tioY0FoUlJHlZW113ov5k4J3y0',
-    messagingSenderId: '203787599830',
-    appId: '1:203787599830:web:c7f86d108804be5f7fee77',
-    projectId: 'websdk-ad560',
+    apiKey: 'AIzaSyBMomRwU1cCq_IjNjQcnyffpwU1EdlcP5Y',
+    messagingSenderId: '237028699118',
+    appId: '1:237028699118:web:8d739cd5eaa9fd75627cff',
+    projectId: 'mobilestore-2beca',
     user_key: 'ADGMOT35CHFLVDHBJNIG50K96BSUH1PDDQFBSPLEV97HGG26AH0G',
-    siteid: 'aaeccc8de125ac68aa280751d12e851b'
+    siteid: '6b65634a2ec2038632afb6fb7b18bc6b'
 };
 importScripts('//cdnt.netcoresmartech.com/swv4.js');
