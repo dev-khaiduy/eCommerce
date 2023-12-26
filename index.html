@@ -2,6 +2,19 @@
 <html lang="en">
 
 <head>
+   <script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function() {
+      navigator.serviceWorker.register('/sw.js')
+        .then(function(registration) {
+          console.log('Dịch vụ Worker đã đăng ký thành công:', registration);
+        })
+        .catch(function(error) {
+          console.log('Đăng ký Dịch vụ Worker thất bại:', error);
+        });
+    });
+  }
+</script>
   <script src='//cdnt.netcoresmartech.com/smartechclient.js'></script>
 <script>
 smartech('create', 'ADGMOT35CHFLVDHBJNIG50K96BSUH1PDDQFBSPLEV97HGG26AH0G' );
